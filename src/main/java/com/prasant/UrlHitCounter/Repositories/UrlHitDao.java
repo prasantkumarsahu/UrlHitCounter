@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class UrlHitDao {
-	HashMap<String, Integer> data;
+	private HashMap<String, Integer> data;
 	int visitors;
 
 	public UrlHitDao() {
